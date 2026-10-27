@@ -34,6 +34,7 @@ async function main() {
         quantity: data.quantity,
         owner: data.owner,
         condition,
+        value: data.value,
       },
     });
   }

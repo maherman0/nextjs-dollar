@@ -37,4 +37,5 @@ model Stuff {
   quantity  Int
   condition Condition @default(good)
   owner     String
+  value     Float
 }
